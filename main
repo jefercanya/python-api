@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/probe')
 def message123():
     return "Hello world mdfuckas abc!"
